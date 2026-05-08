@@ -26,13 +26,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
       appBar: AppBar(title: const Text('Settings')),
       body: ListView(
         children: [
-          // Account
-          const SectionHeader(title: 'Account'),
-          ListTile(
-            leading: const CircleAvatar(child: Icon(Icons.person)),
-            title: const Text('User'),
-          ),
-          const Divider(),
 
           // Appearance
           const SectionHeader(title: 'Appearance'),
